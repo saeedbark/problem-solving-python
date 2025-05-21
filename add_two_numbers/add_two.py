@@ -27,3 +27,5 @@ class Solution:
             nodes[i].next = nodes[i + 1]
         
         return nodes[0] if nodes else None
+    
+    
